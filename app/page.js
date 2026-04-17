@@ -51,7 +51,7 @@ export default function CalgarySignatureFinal() {
     },
     {
       title: "Western Inspired",
-      text: "Open land, raw texture, dust, distance, and a genuine western visual language.",
+      text: "Open land, raw texture, distance, and a genuine western visual language.",
     },
     {
       title: "Durability",
@@ -64,55 +64,43 @@ export default function CalgarySignatureFinal() {
   ];
 
   const sizes = [
-    "30x30",
-    "30x32",
-    "30x34",
-    "30x36",
-    "32x30",
-    "32x32",
-    "32x34",
-    "32x36",
-    "34x30",
-    "34x32",
-    "34x34",
-    "34x36",
-    "36x30",
-    "36x32",
-    "36x34",
-    "36x36",
+    "30x30", "30x32", "30x34", "30x36",
+    "32x30", "32x32", "32x34", "32x36",
+    "34x30", "34x32", "34x34", "34x36",
+    "36x30", "36x32", "36x34", "36x36",
   ];
 
   const lookbookCards = [
     {
-      title: "Desert Light",
-      text: "Warm tones, cinematic grain, and a premium western atmosphere.",
+      title: "High Plains",
+      text: "Muted sky, open land, and a quieter premium western atmosphere.",
     },
     {
-      title: "Fence Line",
-      text: "Texture, simplicity, and a grounded feeling that never turns urban.",
+      title: "Open Range",
+      text: "Distance, restraint, and natural western scale without urban energy.",
     },
     {
-      title: "Buffalo Mark",
-      text: "A symbol of strength, endurance, and the visual soul of Calgary Signature.",
+      title: "Buffalo Country",
+      text: "Strength, endurance, and a colder, more timeless western presence.",
     },
   ];
 
   const heroImage =
-    "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1600&q=80";
+    "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80";
 
   return (
-    <div className="min-h-screen bg-[#0c0a08] text-[#f3ebde] selection:bg-[#d8c19a] selection:text-[#120f0c]">
-      <header className="sticky top-0 z-50 border-b border-white/10 bg-[#0c0a08]/90 backdrop-blur-md">
+    <div className="min-h-screen bg-[#0b0908] text-[#f2eadc] selection:bg-[#d6c0a0] selection:text-[#120f0c]">
+      <header className="sticky top-0 z-50 border-b border-white/10 bg-[#0b0908]/90 backdrop-blur-md">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 md:px-8">
           <a href="#home" className="flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-full border border-[#e7dac2]/30 bg-[#e7dac2]/10 text-lg font-black text-[#efe2ca]">
+            <div className="flex h-10 w-10 items-center justify-center rounded-full border border-[#e6d8c1]/30 bg-[#e6d8c1]/10 text-lg font-black text-[#efe2ca]">
               B
             </div>
             <div>
               <div className="text-lg font-black uppercase tracking-[0.28em] text-[#efe2ca]">
                 Calgary Signature
               </div>
-              <div className="text-[10px] uppercase tracking-[0.34em] text-[#bfab88]">
+              <div className="text-[10px] uppercase tracking-[0.34em] text-[#b8a688]">
                 Premium Western Denim
               </div>
             </div>
@@ -142,48 +130,51 @@ export default function CalgarySignatureFinal() {
       <main>
         <section id="home" className="relative isolate overflow-hidden border-b border-white/10">
           <div
-            className="absolute inset-0 bg-cover bg-center opacity-45"
+            className="absolute inset-0 bg-cover bg-center opacity-40"
             style={{ backgroundImage: `url(${heroImage})` }}
           />
-          <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(8,7,6,0.35),rgba(8,7,6,0.88))]" />
-          <div className="absolute inset-0 opacity-[0.08] [background-image:linear-gradient(rgba(255,255,255,0.14)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.14)_1px,transparent_1px)] [background-size:52px_52px]" />
+          <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(8,7,6,0.45),rgba(8,7,6,0.9))]" />
+          <div className="absolute inset-0 opacity-[0.06] [background-image:linear-gradient(rgba(255,255,255,0.14)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.14)_1px,transparent_1px)] [background-size:52px_52px]" />
 
           <div className="relative mx-auto grid min-h-[92vh] max-w-7xl items-end gap-12 px-5 pb-14 pt-24 md:grid-cols-[1.12fr_0.88fr] md:px-8 md:pb-20 md:pt-28">
             <div>
-              <div className="mb-6 inline-flex items-center gap-3 rounded-full border border-[#eadcc5]/20 bg-[#eadcc5]/10 px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.3em] text-[#d9c5a3]">
-                Western Premium Identity
+              <div className="mb-6 inline-flex items-center gap-3 rounded-full border border-[#eadcc5]/20 bg-[#eadcc5]/10 px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.3em] text-[#d3c2a3]">
+                Authentic Western Wear
               </div>
               <h1 className="max-w-5xl text-5xl font-black uppercase leading-[0.92] text-[#f7f0e4] md:text-7xl lg:text-[6.4rem]">
-                Calgary
-                <span className="block text-[#e5d1af]">Signature</span>
+                Tough As
+                <span className="block text-[#e3d1b2]">Rawhide</span>
               </h1>
               <p className="mt-6 max-w-2xl text-base leading-8 text-[#ddcfb8]/82 md:text-lg">
-                Premium western denim with a tougher point of view. Built to last, shaped for boots, and made to
-                carry the attitude of open country with a cleaner, stronger finish.
+                Premium western denim built for boots, open country, and a more serious, lasting presence.
               </p>
               <div className="mt-9 flex flex-wrap gap-4">
                 <a
                   href="#jeans"
                   className="rounded-full bg-[#efe2ca] px-7 py-3 text-[11px] font-bold uppercase tracking-[0.26em] text-[#15110d] transition hover:-translate-y-0.5"
                 >
-                  Explore Jeans
+                  Explore Series
                 </a>
                 <a
-                  href="#lookbook"
+                  href="#wholesale"
                   className="rounded-full border border-[#efe2ca]/30 px-7 py-3 text-[11px] font-bold uppercase tracking-[0.26em] text-[#efe2ca] transition hover:bg-white/10"
                 >
-                  View Lookbook
+                  Wholesale Inquiry
                 </a>
               </div>
             </div>
 
             <div className="grid gap-4 md:justify-self-end">
               <div className="rounded-[2rem] border border-[#eadcc5]/15 bg-[#eadcc5]/8 p-6 backdrop-blur-sm">
-                <div className="text-[10px] uppercase tracking-[0.34em] text-[#cdb899]">Hero Direction</div>
-                <h3 className="mt-3 text-2xl font-black uppercase text-[#f5ebdb]">Video-ready cinematic block.</h3>
+                <div className="text-[10px] uppercase tracking-[0.34em] text-[#c6b494]">
+                  Visual Direction
+                </div>
+                <h3 className="mt-3 text-2xl font-black uppercase text-[#f5ebdb]">
+                  Cooler. Grounded. Western.
+                </h3>
                 <p className="mt-3 text-sm leading-7 text-[#dbcdb5]/80">
-                  This hero is already structured so your final cinematic western video can replace the temporary image
-                  without changing layout or style.
+                  The hero is ready for a cinematic video later, but the tone is now built around muted skies, dry land,
+                  buffalo-country texture, and a more grounded premium western atmosphere.
                 </p>
               </div>
 
@@ -199,8 +190,8 @@ export default function CalgarySignatureFinal() {
               </div>
 
               <div className="rounded-[1.75rem] border border-white/10 bg-[#15110d] p-5">
-                <div className="text-[10px] uppercase tracking-[0.3em] text-[#bca887]">Brand line</div>
-                <div className="mt-2 text-2xl font-black uppercase text-[#efe2ca]">Made to Last.</div>
+                <div className="text-[10px] uppercase tracking-[0.3em] text-[#bca887]">Hero Line</div>
+                <div className="mt-2 text-2xl font-black uppercase text-[#efe2ca]">Tough As Rawhide.</div>
               </div>
             </div>
           </div>
@@ -224,12 +215,14 @@ export default function CalgarySignatureFinal() {
                 key={item.series}
                 className="group rounded-[2rem] border border-white/10 bg-[#17120f] p-6 transition hover:-translate-y-1 hover:border-[#eadcc5]/20"
               >
-                <div className="aspect-[4/5] rounded-[1.5rem] bg-[linear-gradient(180deg,#ab8d66_0%,#5d4734_50%,#18120f_100%)]" />
+                <div className="aspect-[4/5] rounded-[1.5rem] bg-[linear-gradient(180deg,#8d877c_0%,#5a534a_42%,#17120f_100%)]" />
                 <div className="mt-6 text-[10px] font-semibold uppercase tracking-[0.34em] text-[#bca887]">
                   {item.series}
                 </div>
                 <h3 className="mt-2 text-2xl font-black uppercase text-[#f2e7d5]">{item.fit}</h3>
-                <div className="mt-2 text-xs font-semibold uppercase tracking-[0.24em] text-[#d3bea0]">{item.tagline}</div>
+                <div className="mt-2 text-xs font-semibold uppercase tracking-[0.24em] text-[#d3bea0]">
+                  {item.tagline}
+                </div>
                 <p className="mt-3 text-sm leading-7 text-[#d5c4aa]/74">{item.description}</p>
                 <div className="mt-5 flex flex-wrap gap-2">
                   {item.washes.map((wash) => (
@@ -261,12 +254,7 @@ export default function CalgarySignatureFinal() {
 
             <div className="rounded-[2rem] border border-white/10 bg-[#17120f] p-7 md:p-8">
               <div className="grid gap-4 md:grid-cols-4">
-                {[
-                  "Straight",
-                  "Boot Cut",
-                  "Slim",
-                  "Relaxed",
-                ].map((fit) => (
+                {["Straight", "Boot Cut", "Slim", "Relaxed"].map((fit) => (
                   <div key={fit} className="rounded-[1.5rem] border border-white/10 bg-[#110d0a] p-4 text-center">
                     <div className="text-sm font-black uppercase tracking-[0.18em] text-[#efe2ca]">{fit}</div>
                   </div>
@@ -313,25 +301,25 @@ export default function CalgarySignatureFinal() {
             <div className="mb-12 max-w-3xl">
               <div className="text-[11px] font-semibold uppercase tracking-[0.34em] text-[#bca887]">Lookbook</div>
               <h2 className="mt-4 text-4xl font-black uppercase leading-tight text-[#f4ebdc] md:text-6xl">
-                Cinematic western atmosphere.
+                Open-country western atmosphere.
               </h2>
               <p className="mt-4 text-base leading-8 text-[#d7c8b0]/78">
-                Built around dust, earth tones, open country, cinematic grain, and a visual tone that feels premium
-                without becoming fashion-editorial in the wrong way.
+                Built around cooler skies, dry grass, buffalo-country space, cinematic grain, and a western tone that
+                feels premium without looking overly polished or commercial.
               </p>
             </div>
 
             <div className="grid gap-6 lg:grid-cols-[1.05fr_0.95fr]">
-              <div className="min-h-[540px] rounded-[2rem] border border-white/10 bg-[linear-gradient(180deg,#b49268_0%,#433427_48%,#14100d_100%)] p-7 md:p-10">
+              <div className="min-h-[540px] rounded-[2rem] border border-white/10 bg-[linear-gradient(180deg,#9d988c_0%,#595349_45%,#14100d_100%)] p-7 md:p-10">
                 <div className="flex h-full items-end">
                   <div className="max-w-xl rounded-[1.75rem] border border-white/10 bg-[#120f0c]/72 p-6 backdrop-blur-sm">
-                    <div className="text-[10px] uppercase tracking-[0.35em] text-[#ccb899]">Future Video Placement</div>
+                    <div className="text-[10px] uppercase tracking-[0.35em] text-[#ccb899]">Atmosphere Direction</div>
                     <h3 className="mt-3 text-3xl font-black uppercase text-[#f3e8d7] md:text-4xl">
-                      Hero footage can drop in here next.
+                      Cooler, quieter, more grounded.
                     </h3>
                     <p className="mt-4 text-sm leading-7 text-[#d8c8af]/82">
-                      The structure is already prepared for your final cinematic western video, while keeping a strong
-                      premium visual presence in the meantime.
+                      The final visual language should feel more like high plains, muted skies, and serious western land
+                      than warm sunset advertising.
                     </p>
                   </div>
                 </div>
@@ -340,7 +328,7 @@ export default function CalgarySignatureFinal() {
               <div className="grid gap-6">
                 {lookbookCards.map((card) => (
                   <div key={card.title} className="rounded-[2rem] border border-white/10 bg-[#17120f] p-6">
-                    <div className="h-36 rounded-[1.5rem] bg-[linear-gradient(180deg,#8f7556_0%,#2f251c_100%)]" />
+                    <div className="h-36 rounded-[1.5rem] bg-[linear-gradient(180deg,#857b6f_0%,#2f2922_100%)]" />
                     <h3 className="mt-5 text-2xl font-black uppercase text-[#f1e7d5]">{card.title}</h3>
                     <p className="mt-3 text-sm leading-7 text-[#d7c7ae]/76">{card.text}</p>
                   </div>
@@ -391,27 +379,12 @@ export default function CalgarySignatureFinal() {
 
               <div className="rounded-[2rem] border border-white/10 bg-[#17120f] p-7 md:p-8">
                 <div className="grid gap-4 md:grid-cols-2">
-                  <input
-                    className="rounded-2xl border border-white/10 bg-[#110d0a] px-4 py-4 text-sm text-[#f3e7d5] outline-none placeholder:text-[#9f8b6d]"
-                    placeholder="Full Name"
-                  />
-                  <input
-                    className="rounded-2xl border border-white/10 bg-[#110d0a] px-4 py-4 text-sm text-[#f3e7d5] outline-none placeholder:text-[#9f8b6d]"
-                    placeholder="City"
-                  />
-                  <input
-                    className="rounded-2xl border border-white/10 bg-[#110d0a] px-4 py-4 text-sm text-[#f3e7d5] outline-none placeholder:text-[#9f8b6d]"
-                    placeholder="Phone"
-                  />
-                  <input
-                    className="rounded-2xl border border-white/10 bg-[#110d0a] px-4 py-4 text-sm text-[#f3e7d5] outline-none placeholder:text-[#9f8b6d]"
-                    placeholder="Email"
-                  />
+                  <input className="rounded-2xl border border-white/10 bg-[#110d0a] px-4 py-4 text-sm text-[#f3e7d5] outline-none placeholder:text-[#9f8b6d]" placeholder="Full Name" />
+                  <input className="rounded-2xl border border-white/10 bg-[#110d0a] px-4 py-4 text-sm text-[#f3e7d5] outline-none placeholder:text-[#9f8b6d]" placeholder="City" />
+                  <input className="rounded-2xl border border-white/10 bg-[#110d0a] px-4 py-4 text-sm text-[#f3e7d5] outline-none placeholder:text-[#9f8b6d]" placeholder="Phone" />
+                  <input className="rounded-2xl border border-white/10 bg-[#110d0a] px-4 py-4 text-sm text-[#f3e7d5] outline-none placeholder:text-[#9f8b6d]" placeholder="Email" />
                 </div>
-                <textarea
-                  className="mt-4 min-h-[160px] w-full rounded-[1.5rem] border border-white/10 bg-[#110d0a] px-4 py-4 text-sm text-[#f3e7d5] outline-none placeholder:text-[#9f8b6d]"
-                  placeholder="Message"
-                />
+                <textarea className="mt-4 min-h-[160px] w-full rounded-[1.5rem] border border-white/10 bg-[#110d0a] px-4 py-4 text-sm text-[#f3e7d5] outline-none placeholder:text-[#9f8b6d]" placeholder="Message" />
                 <button className="mt-5 rounded-full bg-[#efe2ca] px-7 py-3 text-[11px] font-bold uppercase tracking-[0.26em] text-[#15110d] transition hover:-translate-y-0.5">
                   Wholesale Inquiry
                 </button>
